@@ -28,12 +28,12 @@ header h1 {
 .cover {
   height: 60vh;
   width: 100%;
-  background-color: #000;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url(https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
