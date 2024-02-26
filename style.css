@@ -74,9 +74,29 @@ header h1 {
   font-size: 30px;
   margin: 10px 0;
 }
-.columns i{
-    font-size: 60px;
-    border: 1px solid #000;
-    padding: 10px;
-    border-radius: 50%;
+.columns i {
+  font-size: 60px;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 50%;
+}
+.about {
+  display: flex;
+  margin: 100px;
+}
+.about h3 {
+  font-size: 30px;
+}
+.about p {
+  margin: 10px 10px 0 0;
+  line-height: 23px;
+}
+.about img {
+  width: 300px;
+  height: auto;
+}
+.about > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
